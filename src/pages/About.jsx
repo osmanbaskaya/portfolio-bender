@@ -14,15 +14,12 @@ import PreviousExperience from '../components/PreviousExperience'
 
 const goodreads_api =
   'https://goodreads-currently-reading-klxvdojwta-uc.a.run.app'
-const learning = ['Français 🇫🇷', 'Tango Dancing 🕺🏻', 'Product Discovery 🧐']
+const learning = ['Surfing', 'Tango Dancing']
 const hobbies = [
   'Tennis 🎾',
   'Hiking 🥾',
   'Backpacking 🏕',
   'Traveling 🛸',
-  'Mind & Language 🧠',
-  'Cognitive Science',
-  'Behavioral Economics',
   'Psychology',
   'Philosophy',
 ]

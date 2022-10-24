@@ -14,11 +14,11 @@ import { Link } from '@mui/material'
 var pages = [
   { url: '/', text: 'Home' },
   { url: '#work', text: 'Work' },
-  { url: '#research', text: 'Research' },
-  { url: '/about', text: 'About' },
+  // { url: '#research', text: 'Research' },
+  // { url: '/about', text: 'About' },
   { url: '#contact', text: 'Contact' },
 
-  { url: 'http://osmanbaskaya.github.io/', text: 'Blog' },
+  // { url: 'http://osmanbaskaya.github.io/', text: 'Blog' },
 ]
 
 const Navbar = () => {
@@ -57,7 +57,7 @@ const Navbar = () => {
             }}
           >
             <Link href="/" sx={{ textDecoration: 'none', color: 'inherit' }}>
-              Osman Başkaya
+              Jackie Bender
             </Link>
           </Typography>
 
@@ -121,7 +121,7 @@ const Navbar = () => {
             }}
           >
             <Link href="/" sx={{ textDecoration: 'none', color: 'green' }}>
-              Osman Başkaya
+              Jackie Bender
             </Link>
           </Typography>
           <Box

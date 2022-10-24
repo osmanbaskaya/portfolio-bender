@@ -17,24 +17,12 @@ export default function Home() {
         }}
       ></Divider>
       <Typography variant="h5" fontStyle="italic">
-        I am an <strong> engineering leader </strong> who believes only
-        <strong> psychologically safe </strong> and{' '}
-        <strong> empathetic </strong>
-        teams can achieve their full potential.
-      </Typography>
-      <Typography variant="h5" marginTop={2} fontStyle="italic">
-        I love growing and <strong> inspiring </strong> people, building
-        <strong> autonomous</strong> and <strong> high-performing </strong>
-        teams, and working with
-        <strong> cross-functional organizations</strong> to help define the
-        <strong> architecture, strategy, and roadmaps</strong> to ensure we
-        deliver <strong>incremental value</strong> and
-        <strong> exceptional</strong> products to the customers.
+        Some text
       </Typography>
       <HomeDivider id="work" label="MY WORK @ TWILIO"></HomeDivider>
       <Work></Work>
-      <HomeDivider id="research" label="RESEARCH"></HomeDivider>
-      <Articles />
+      {/* <HomeDivider id="research" label="RESEARCH"></HomeDivider>
+      <Articles /> */}
     </>
   )
 }

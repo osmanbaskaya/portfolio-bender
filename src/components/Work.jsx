@@ -122,15 +122,6 @@ function Section(props) {
 export default function Work() {
   return (
     <Box>
-      <Section
-        title="Central AI Platform"
-        short="Centralized Machine Learning"
-        url="https://www.twilio.com/speech-recognition"
-        description="I manage a team of software engineers and ML scientists responsible for building a central
-ML platform for the company and improving its state-of-the-art speech engine."
-        roles={['Engineering Manager', 'Machine Learning Learning Platform']}
-        summary="A platform that harnesses Machine Learning and enables the teams withing the company from Twilio Voice to Flex to build more intelligent products."
-      ></Section>
       {/* <Divider
         sx={{
           borderWidth: '5',
@@ -140,21 +131,20 @@ ML platform for the company and improving its state-of-the-art speech engine."
         }}
       ></Divider> */}
       <Section
-        title="Autopilot"
-        short="Omnichannel AI assistant"
-        url="https://www.twilio.com/blog/introducing-twilio-autopilot-a-conversational-ai-platform-to-build-bots-that-work"
-        description="I lead the team and am the owner of the whole process of sunsetting Twilio Autopilot."
-        roles={[
-          'Product Management',
-          'Engineering Manager',
-          'Natural Language Understanding',
-          'Technical Leader',
-          'Chat bots',
-        ]}
-        summary="Autopilot is Twilio’s conversational AI platform for building
-                bots, IVRs, voice assistants, and more. Autopilot combines
-                Twilio’s Natural Language Understanding engine and Autopilot
-                Actions API."
+        title="Los Angeles County Finance"
+        short="Centralized Machine Learning"
+        url="https://www.jackiebender.com"
+        description="Some text"
+        roles={['Some role 1', 'Some role 2']}
+        summary="Some summary"
+      ></Section>
+      <Section
+        title="Los Angeles County Finance"
+        short="Centralized Machine Learning"
+        url="https://www.jackiebender.com"
+        description="Some text"
+        roles={['Some role 1', 'Some role 2']}
+        summary="Some summary"
       ></Section>
     </Box>
   )

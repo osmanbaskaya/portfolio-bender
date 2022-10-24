@@ -56,7 +56,7 @@ export default function Hero() {
           }}
         >
           <HeroTypography marginBottom="1rem">
-            Hello! I'm Osman, an
+            Hello! I'm Jackie, an
           </HeroTypography>
 
           <Box height={50} overflow={'hidden'} mb="1rem">
@@ -67,8 +67,8 @@ export default function Hero() {
               color={'green'}
               textAlign={'left'}
             >
-              <HeroTypography height="50px">Engineering Manager</HeroTypography>
-              <HeroTypography height="50px">ML Expert</HeroTypography>
+              <HeroTypography height="50px">one</HeroTypography>
+              <HeroTypography height="50px">two</HeroTypography>
             </Box>
           </Box>
           <HeroTypography> based in San Francisco.</HeroTypography>

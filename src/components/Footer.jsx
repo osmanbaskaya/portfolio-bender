@@ -60,18 +60,18 @@ export default function Footer() {
                 </Typography>
               </Grid>
               <Grid item>
-                <FooterLinkComponent href="mailto:osbaskaya@gmail.com?subject=[homepage] Hi there!">
+                <FooterLinkComponent href="mailto:jackiebender@gmail.com?subject=[homepage] Hi there!">
                   <EmailIcon sx={{ color: 'white' }} />
                 </FooterLinkComponent>
               </Grid>
-              <Grid item>
+              {/* <Grid item>
                 <FooterLinkComponent href="https://github.com/osmanbaskaya">
                   <GitHubIcon sx={{ color: 'white' }} />
                 </FooterLinkComponent>
-              </Grid>
+              </Grid> */}
 
               <Grid item>
-                <FooterLinkComponent href="https://www.linkedin.com/in/osmanbaskaya">
+                <FooterLinkComponent href="https://www.linkedin.com/in/jacqueline-bender-401828a/">
                   <LinkedInIcon sx={{ color: 'white' }} />
                 </FooterLinkComponent>
               </Grid>
