@@ -1,5 +1,4 @@
 import { Chip, Divider, Typography } from '@mui/material'
-import Articles from '../components/Articles'
 import Hero from '../components/Hero'
 import HomeDivider from '../components/HomeDivider'
 import Work from '../components/Work'
@@ -17,9 +16,18 @@ export default function Home() {
         }}
       ></Divider>
       <Typography variant="h5" fontStyle="italic">
-        Some text
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem
+        nostrum neque architecto vero, in qui optio, nemo tempore minima
+        accusantium voluptates ducimus cumque eius magni voluptatibus soluta
+        aliquam odit reprehenderit reiciendis officia earum fuga dolores? Nisi
+        qui ex quo vero. Doloremque error sit asperiores libero atque magni
+        accusamus ex quam.
       </Typography>
-      <HomeDivider id="work" label="MY WORK @ TWILIO"></HomeDivider>
+      <HomeDivider
+        id="work"
+        label="Work @ Los Angeles
+            County Department of Health Services"
+      ></HomeDivider>
       <Work></Work>
       {/* <HomeDivider id="research" label="RESEARCH"></HomeDivider>
       <Articles /> */}

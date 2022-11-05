@@ -131,20 +131,20 @@ export default function Work() {
         }}
       ></Divider> */}
       <Section
-        title="Los Angeles County Finance"
-        short="Centralized Machine Learning"
+        title="Project 1"
+        short="Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quo numquam exercitationem recusandae iusto culpa?"
         url="https://www.jackiebender.com"
-        description="Some text"
-        roles={['Some role 1', 'Some role 2']}
-        summary="Some summary"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia aspernatur optio dolorem dolores consequatur officia ducimus veritatis."
+        roles={['Role', 'Role']}
+        summary="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quod?"
       ></Section>
       <Section
-        title="Los Angeles County Finance"
-        short="Centralized Machine Learning"
+        title="Project 2"
+        short="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, aperiam!"
         url="https://www.jackiebender.com"
-        description="Some text"
-        roles={['Some role 1', 'Some role 2']}
-        summary="Some summary"
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aperiam veritatis magnam."
+        roles={['Role', 'Role']}
+        summary=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, culpa dolor quaerat magnam officia possimus."
       ></Section>
     </Box>
   )

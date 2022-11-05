@@ -56,10 +56,11 @@ export default function Hero() {
           }}
         >
           <HeroTypography marginBottom="1rem">
-            Hello! I'm Jackie, an
+            Hello! I'm Jackie! I am the Chief of Finance Strategy at Los Angeles
+            County Department of Health Services.
           </HeroTypography>
 
-          <Box height={50} overflow={'hidden'} mb="1rem">
+          {/* <Box height={50} overflow={'hidden'} mb="1rem">
             <Box
               sx={{
                 animation: `${move} 3s infinite ease-in-out alternate`,
@@ -71,7 +72,7 @@ export default function Hero() {
               <HeroTypography height="50px">two</HeroTypography>
             </Box>
           </Box>
-          <HeroTypography> based in San Francisco.</HeroTypography>
+          <HeroTypography> based in San Francisco.</HeroTypography> */}
         </Grid>
       </Grid>
     </Box>
