@@ -101,7 +101,7 @@ const Navbar = () => {
                   href={page.url}
                   textAlign="center"
                   key={page.text}
-                  sx={{ textDecoration: 'none', color: 'green' }}
+                  sx={{ textDecoration: 'none', color: 'blue' }}
                 >
                   <MenuItem onClick={handleCloseNavMenu}>{page.text}</MenuItem>
                 </Link>
@@ -120,7 +120,7 @@ const Navbar = () => {
               lineHeight: 'unset',
             }}
           >
-            <Link href="/" sx={{ textDecoration: 'none', color: 'green' }}>
+            <Link href="/" sx={{ textDecoration: 'none', color: 'blue' }}>
               Jackie Bender
             </Link>
           </Typography>
@@ -141,7 +141,7 @@ const Navbar = () => {
               >
                 <Typography
                   textAlign="center"
-                  color="green"
+                  color="blue"
                   sx={{ textDecoration: 'none' }}
                 >
                   {page.text}

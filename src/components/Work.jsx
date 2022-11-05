@@ -29,7 +29,7 @@ function Section(props) {
         <Grid container justifyContent="space-between" alignItems="center">
           <Grid item md={6}>
             <Box sx={{ display: 'flex', alignItems: 'center' }} width="100%">
-              <Box
+              {/* <Box
                 component="img"
                 sx={{
                   height: '70px',
@@ -37,7 +37,7 @@ function Section(props) {
                 }}
                 alt="twilio"
                 src="assets/img/twilio.png"
-              ></Box>
+              ></Box> */}
               <Typography variant="h3">{props.title}</Typography>
             </Box>
 
@@ -50,7 +50,7 @@ function Section(props) {
                   {props.roles.map((role, index) => (
                     <Chip
                       label={role}
-                      color="success"
+                      color="primary"
                       sx={{
                         fontSize: 'medium',
                         margin: '3px',
@@ -104,7 +104,7 @@ function Section(props) {
                   variant="h6"
                   fontSize={'3rem'}
                   sx={{ textDecoration: 'none' }}
-                  color="green"
+                  color="blue"
                   // fontFamily="BIZ UDPMincho, serif"
                 >
                   Learn More
